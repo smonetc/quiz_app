@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <title>Futurama Quiz App</title>
+</head>
+<body>
+	<main role='main'>
+		<div class="container">
+			<!-- start page  -->
+			<section id='start_page'>
+				<div id='title'>
+				<h2>Are you a Futurama Fan?</h2>
+				<img src="https://cdn.mos.cms.futurecdn.net/E9GkaYAK7Gb2Yo472wmLqH-320-80.jpg" alt="Futurama Crew">	
+				</div>
+				<button type='submit' class='button'>Let's Go Already!</button>
+			</section>
+			<!-- question page -->
+			<section id='question_pg' class='hidden'>
+				<form  id='form'> 
+				<h2>Are you a Futurama Fan?</h2>
+				<div id='quiz-question' class='question'></div>
+				<div class='answers' role='radiogroup'></div>
+				<button id='submit-answer' class='button hidden disabled' type='submit' disabled>Submit!</button>
+				</form>
+				<button id='next-question' class='button hidden' type='submit'>Next</button>
+				<div id='feedbackcorrect' class='all-feedback hidden'>
+				<h3>Correct! You're walking on sunshine now!</h3><br>
+				<img src="https://www.insidehook.com/wp-content/uploads/2019/03/futurama.jpg?fit=1280%2C720" id="happyfry" alt="fry happy">
+			</div>
+				<div id='feedbackincorrect' class='hidden'><br></div>
+				<div class='results-counter'></div>
+				</section>
+			<!-- final page -->
+			<section id='final-page' class='hidden'>
+				<h2>Are you a Futurama Fan?</h2>
+				<div id='finalnums'><br></div>
+				<div>
+				<img id="braindead_fry" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCq8ZRu1rei8AEXD_IPhkGAWf4g8klbFTK4BJtXYa_kOg7YQ6w&usqp=CAU" alt="image of Fry from Futurama">	
+				</div>
+				<button id='restart' class="button" type='submit'>Restart!</button>
+			</section>
+		</div>
+	</main>  
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-family: 'Acme', sans-serif;
+    color: #CD725B;
+}
+
+h3{
+  font-family: 'Acme', sans-serif;
+  color: #CD725B;
+}
+
+img{
+  border-radius: 5px;
+}
+
+main{
+  display: flex;
+
+}
+ .container{
+  flex-direction: row;
+  background-color: #5BB6CD;
+  margin-top: 57px;
+  border: 3px solid white;
+  border-radius: 18px;
+  padding: 40px;
+ }
+
+.button{
+    display: block;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+
+#braindead_fry{
+    margin-bottom: 40px;
+}
+
+.question {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+.answers {
+    text-align: left;
+    font-size: 18px;
+  }
+
+
+.disabled {
+    opacity: 0.50; 
+    cursor: not-allowed;
+  }
+
+.hidden {
+    display: none;
+  }
+  
+.all-feedback {
+    font-size: 18px;
+    margin-top: 10px;
+    position: relative;
+    line-height: 150%;
+  }
+
+  #happyfry{
+    width: 320px;
+    height: 180px;
+  }
+
+  #crewyelling{
+    width: 320px;
+    height: 180px;
+  }
+
+  #braindead_fry{
+    margin-top: 37px;
+  }
