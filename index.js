@@ -133,7 +133,7 @@ function evaluateAnswers() {
   
 function getCorrectAnswer() {
   //incorrect answer text
-	let popupAnswerText = `<h3>Wrong! Bite My Shiny Metal Ass!</h3><br>
+	let popupAnswerText = `<h3>Wrong! Bite My Shiny Metal Ass! The correct answer is: ${quizQs[current].correctAnswer} </h3><br>
 	<img id="crewyelling" src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/futurama-bender-leela-fry-terrified-700x394.jpg" alt="futurama crew yelling">`;
 	$('#feedbackincorrect').html(popupAnswerText);
 } 

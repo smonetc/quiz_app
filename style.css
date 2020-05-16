@@ -2,13 +2,77 @@
     margin: 0 auto;
     text-align: center;
     font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+@media screen and (min-width:320px) {
+  html{
+    height: 100%;
+    background-color: #5BB6CD;
+  }
+  h2{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  h3{
+    font-family: 'Acme', sans-serif;
+  }
+  .container{
+    padding: 0 10px;
+  }
+  #braindead_fry{
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width:750px) {
+  #braindead_fry{
+    margin-top: 60px;
+  }
+
+  html{
+    background-color: #5BB6CD;
+  }
+
+  h3{
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (min-width:1200px) {
+  #braindead_fry{
+    margin-top: 60px;
+  }
+  html{
+    background-color:white;
+  }
+
+  main{
+    display: flex;
+  
+  }
+   .container{
+    flex-direction: row;
+    min-width: 60%;
+    min-height: 10%;
+    background-color: #5BB6CD;
+    margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 18px;
+    padding: 20px 40px;
+   }
 }
 
 h2{
-    font-size: 3rem;
-    margin-bottom: 50px;
-    font-family: 'Acme', sans-serif;
-    color: #CD725B;
+
+  font-size: 3rem;
+  /* margin-bottom: 50px; */
+  font-family: 'Acme', sans-serif;
+  color: #CD725B;
 }
 
 h3{
@@ -20,40 +84,30 @@ img{
   border-radius: 5px;
 }
 
-main{
-  display: flex;
-
-}
- .container{
-  flex-direction: row;
-  background-color: #5BB6CD;
-  margin-top: 57px;
-  border: 3px solid white;
-  border-radius: 18px;
-  padding: 40px;
- }
-
 .button{
-    display: block;
-    margin-top: 20px;
-    border: 2px solid white;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: white;
+  display: block;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: white;
+  color: black;
 }
 
-#braindead_fry{
+
+/* #braindead_fry{
     margin-bottom: 40px;
-}
+} */
 
 .question {
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: left; 
   }
   
 .answers {
-    text-align: left;
-    font-size: 18px;
+  text-align: left;
+  font-size: 18px;
   }
 
 
@@ -73,6 +127,19 @@ main{
     line-height: 150%;
   }
 
+  fieldset{
+    border: none;
+  }
+   input{
+     margin-top: 15px;
+   }
+
+   legend{
+     text-align: left;
+     font-weight: bold;
+     font-size: 20px;
+   }
+
   #happyfry{
     width: 320px;
     height: 180px;
@@ -83,6 +150,11 @@ main{
     height: 180px;
   }
 
-  #braindead_fry{
-    margin-top: 37px;
+  #next-question{
+    padding: 10px 20px;
   }
+
+  /* #braindead_fry{
+    margin-top: 37px;
+  } */
+

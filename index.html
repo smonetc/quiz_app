@@ -8,7 +8,7 @@
     <title>Futurama Quiz App</title>
 </head>
 <body>
-	<main role='main'>
+	<main>
 		<div class="container">
 			<!-- start page  -->
 			<section id='start_page'>
@@ -21,19 +21,21 @@
 			<!-- question page -->
 			<section id='question_pg' class='hidden'>
 				<form  id='form'> 
-				<h2>Are you a Futurama Fan?</h2>
-				<div id='quiz-question' class='question'></div>
-				<div class='answers' role='radiogroup'></div>
-				<button id='submit-answer' class='button hidden disabled' type='submit' disabled>Submit!</button>
+					<fieldset>
+						<h2>Are you a Futurama Fan?</h2>
+						<div id='quiz-question' class='question'></div>
+						<div class='answers' role='radiogroup'></div>
+						<button id='submit-answer' class='button hidden disabled' type='submit' disabled>Submit!</button>
+					</fieldset>
 				</form>
-				<button id='next-question' class='button hidden' type='submit'>Next</button>
+				<button id='next-question' class='button hidden' type='submit'>Next!</button>
 				<div id='feedbackcorrect' class='all-feedback hidden'>
 				<h3>Correct! You're walking on sunshine now!</h3><br>
 				<img src="https://www.insidehook.com/wp-content/uploads/2019/03/futurama.jpg?fit=1280%2C720" id="happyfry" alt="fry happy">
-			</div>
+				</div>
 				<div id='feedbackincorrect' class='hidden'><br></div>
 				<div class='results-counter'></div>
-				</section>
+			</section>
 			<!-- final page -->
 			<section id='final-page' class='hidden'>
 				<h2>Are you a Futurama Fan?</h2>
